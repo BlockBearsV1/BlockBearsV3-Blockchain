@@ -64,11 +64,11 @@ Certainly! Here's an updated version of the code with the blockchain name includ
    geth --datadir ./data --rpc --rpcaddr "localhost" --rpcport "8545" --rpccorsdomain "*" --rpcapi "eth,net,web3,personal,miner" --allow-insecure-unlock console
    ```
 
-9. You are now in the Geth console. You can interact with the blockchain using JavaScript commands. For
+9. You are now in the Geth console. You can interact with the blockchain using JavaScript commands. 
 
 10. 
   
-Building the frontend using Angular in Termux can be a bit challenging since Termux is primarily designed for command-line operations and doesn't have a graphical user interface. However, you can still write the Angular code in Termux and then transfer it to a machine with a graphical interface for building and running the frontend.
+   For Building the frontend using Angular in Termux can be a bit challenging since Termux is primarily designed for command-line operations and doesn't have a graphical user interface. However, you can still write the Angular code in Termux and then transfer it to a machine with a graphical interface for building and running the frontend.
 
 Here's how you can set up the frontend using Angular in Termux:
 
