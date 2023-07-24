@@ -5,7 +5,7 @@ But that's not all – BlocksBearsV3 goes above and beyond by incorporating a cu
 
 To ensure the utmost data protection, BlocksBearsV3 leverages AWS Keys, providing a robust and secure storage solution. With its Minimum Viable Product (MVP), BlocksBearsV3 is ready to transform the blockchain landscape, offering unparalleled efficiency, transparency, and convenience.
 
-Certainly! Here's an example of a basic blockchain code using Geth in Termux:
+Certainly! Here's an updated version of the code with the blockchain name included:
 
 1. Install Termux from the Google Play Store or F-Droid.
 
@@ -39,7 +39,8 @@ Certainly! Here's an example of a basic blockchain code using Geth in Termux:
        "homesteadBlock": 0,
        "eip150Block": 0,
        "eip155Block": 0,
-       "eip158Block": 0
+       "eip158Block": 0,
+       "name": "BlocksBearsV3"
      },
      "alloc": {},
      "coinbase": "0x0000000000000000000000000000000000000000",
@@ -63,7 +64,7 @@ Certainly! Here's an example of a basic blockchain code using Geth in Termux:
    geth --datadir ./data --rpc --rpcaddr "localhost" --rpcport "8545" --rpccorsdomain "*" --rpcapi "eth,net,web3,personal,miner" --allow-insecure-unlock console
    ```
 
-9. You are now in the Geth console. You can interact with the blockchain using JavaScript commands. For example, you can create an account:
+9. You are now in the Geth console. You can interact with the blockchain using JavaScript commands. For
 
 10. 
   
